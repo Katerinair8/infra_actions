@@ -27,9 +27,7 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
-    needs: tests
-    steps:
-    - ... 
+    needs: tests 
  
   deploy:
     runs-on: ubuntu-latest
